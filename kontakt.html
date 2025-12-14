@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Print Firma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Digital print</h1>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+
+        </div>
+    </header>
+    <div class="navigacija">
+        <nav>
+            <ul>
+                <li> <a href="index.html">Početna</a></li>
+                <li> <a href="onama.html">O nama</a></li>
+                <li> <a href="portfolio.html">Portfolio</a></li>
+                <li> <a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        </header>
+        <form action="submit_form.php" method="post" class="kontakt-form">
+            <fieldset>
+                <legend>Kontaktirajte nas</legend>
+                <p>Molimo vas da popunite polja.</p>
+                <label for="lastName">Prezime</label><br>
+                <input type="text" name="prezime" id="lastName" placeholder="Vaše prezime"><br>
+                <label for="name">Ime</label><br>
+                <input type="text" name="ime" id="name" placeholder="Vaše ime"><br>
+                <label for="eml">Email</label><br>
+                <input type="email" name="email" id="eml" placeholder="Vaš email"><br>
+                <label for="brojTelefona">Broj telefona</label><br>
+                <input type="text" name="brojTelefona" id="brojTelefona" placeholder="Vaš broj telefona"><br>
+                <span>Koja od usluga Vam je potrebna:</span><br>
+                <input type="checkbox" name="usluge[]" id="usluga" value="Logotip"><label for="usluga">Logotip</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga2" value="Dizajn"><label for="usluga2">Dizajn ambalaže/etiketa</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga3" value="Plakat"><label for="usluga3">Plakat</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga4" value="WebSite"><label for="usluga4">Web sajt</label><br>
+                <input type="checkbox" name="usluge[]" id="usluga5" value="Drugo"><label for="usluga5">Nešto drugo</label><br>
+                <label for="komentar">Kratak opis željene usluge</label><br>
+                <textarea name="komentar" id="komentar" cols="30" rows="10" placeholder="Vaš komentar"></textarea><br>
+                <input type="submit" value="Pošalji">
+                <input type="reset" value="Obriši sve">
+            </fieldset>
+        </form>
+
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Digital Print firma</p>
+
+    </footer>
+
+</body>
+
+</html>
