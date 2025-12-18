@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalprint.42web.io/sitemap.xml
+
